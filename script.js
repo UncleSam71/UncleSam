@@ -139,7 +139,7 @@ const lightbox = document.getElementById("lightbox");
 const lightboxImg = document.getElementById("lightboxImg");
 const closeLightbox = document.getElementById("closeLightbox");
 
-document.querySelectorAll("img.frame, .hero-photo").forEach(img => {
+document.querySelectorAll("img.photo-main, .hero-photo").forEach(img => {
 
     img.addEventListener("click", () => {
 

@@ -562,3 +562,28 @@ transform:rotate(12deg) scale(1);
 }
 
 }
+
+/* ===== card links on the era overview page (tap a photo -> its own QR page) ===== */
+.card-link{ display:block; }
+.card-link:active{ opacity:0.85; }
+
+/* ===== single-photo pages (each opened directly from its own printed QR code) ===== */
+.back-to-era{
+  display:inline-flex; align-items:center;
+  font-family:'Special Elite', monospace; font-size:12px;
+  color:var(--text-muted); margin-bottom:16px;
+}
+.era-chip{
+  display:inline-flex; align-items:center;
+  background:var(--accent); color:#fff;
+  padding:6px 14px; border-radius:20px;
+  font-family:'Special Elite', monospace; font-size:11px;
+  margin-bottom:18px;
+}
+.photo-title{ margin-top:20px; font-size:24px; line-height:1.25; }
+.photo-index{
+  display:block; margin-top:6px;
+  font-family:'Special Elite', monospace; font-size:11px;
+  color:var(--text-muted);
+}
+.photo-desc{ margin-top:16px; font-size:16.5px; color:var(--text-body); }
